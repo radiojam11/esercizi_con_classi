@@ -18,3 +18,5 @@ sold1 = Soldato("Mario Rossi","A23232", "Granatieri")
 
 print(sold1)
 print(sold1.__repr__())
+for mane in Soldato.__dict__:
+    print(mane)
